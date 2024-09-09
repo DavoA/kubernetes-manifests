@@ -1,2 +1,2 @@
-# kubernetes-manifests
-for my new task
+# ArgoAplication
+for argo configuration
