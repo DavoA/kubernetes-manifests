@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: davidaris/app-front:1cd17237db394302ed7539c01099c5fcf96f67fb
+          image: davidaris/app-front:db00cab30b7932e4b8d4513086d31056cae8de59
           ports:
             - containerPort: 3000
