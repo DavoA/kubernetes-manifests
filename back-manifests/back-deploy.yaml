@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: davidaris/app-back:9e04191a410b470c2595027ecfb61bde1e4e253d
+          image: davidaris/app-back:65040b123f76db188544ec5feca12a5aff6fe360
           ports:
             - containerPort: 3001
           env:
