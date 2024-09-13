@@ -32,8 +32,6 @@ spec:
                 secretKeyRef:
                   name: db-secrets
                   key: password
-            - name: MONGO_INITDB_DATABASE
-              value: back-db
       volumes:
         - name: db-volume
           persistentVolumeClaim:
