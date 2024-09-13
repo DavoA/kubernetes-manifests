@@ -4,9 +4,10 @@ metadata:
   name: back-svc
   namespace: ingress-nginx
 spec:
-  type: ClusterIP
   selector:
-    app: back   
+    app: back
   ports:
-    - port: 3001
+    - protocol: TCP
+      port: 80
       targetPort: 3001
+  type: LoadBalancer
